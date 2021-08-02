@@ -1,8 +1,6 @@
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
-
-# Connect to main app.py file
 from app import app
 from app import server
 from apps import tabella,deltac,home_null
